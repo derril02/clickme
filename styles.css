@@ -1,0 +1,40 @@
+body {
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  background-color: #ff69b4;
+  color: #00ff00;
+  cursor: wait;
+  overflow: hidden;
+}
+
+#tombol {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #ffff00;
+  border: 3px dashed #0000ff;
+  animation: berputar 2s linear infinite;
+}
+
+@keyframes berputar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#pesan {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#nyancat {
+  position: fixed;
+  bottom: -100px;
+  left: -150px;
+  width: 100px;
+  transition: all 0.5s;
+}
